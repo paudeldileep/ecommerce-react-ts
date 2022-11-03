@@ -1,0 +1,43 @@
+[
+    {
+      "id": 1,
+      "name": "Iphone XS",
+      "price": 500.99,
+      "imgUrl": "/images/iphone.png"
+    },
+    {
+      "id": 2,
+      "name": "Macbook",
+      "price": 1299,
+      "imgUrl": "/images/macbook.png"
+    },
+    {
+      "id": 3,
+      "name": "Smart Phone",
+      "price": 400.05,
+      "imgUrl": "/images/smartphone.png"
+    },
+    {
+      "id": 4,
+      "name": "SSD",
+      "price": 140,
+      "imgUrl": "/images/ssd.png"
+    },
+    {
+        "id": 5,
+        "name": "RAM Chip",
+        "price": 180,
+        "imgUrl": "/images/ram.png"
+      },{
+        "id": 6,
+        "name": "Laptop",
+        "price": 600,
+        "imgUrl": "/images/laptop.png"
+      },
+      {
+        "id": 7,
+        "name": "Gaming PC",
+        "price": 600,
+        "imgUrl": "/images/gamingpc.png"
+      }
+  ]
