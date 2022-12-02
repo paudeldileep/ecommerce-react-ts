@@ -1,4 +1,4 @@
-import { FunctionComponent, useState } from "react";
+import { FunctionComponent } from "react";
 import { useShoppingCart } from "../context/ShoppingCartContext";
 import { formatCurrency } from "../utilities/currencyFormatter";
 
@@ -12,12 +12,8 @@ interface IProductCardProps {
 const ProductCard: FunctionComponent<IProductCardProps> = (props) => {
   const { itemId, itemName, itemImage, itemPrice } = props;
 
-  const {
-    getItemQuantity,
-    increaseItemQuantity,
-    decreaseItemQuantity,
-    removeItem,
-  } = useShoppingCart();
+  const { getItemQuantity, increaseItemQuantity, decreaseItemQuantity } =
+    useShoppingCart();
 
   const quantity = getItemQuantity(itemId);
 

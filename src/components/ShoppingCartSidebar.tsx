@@ -34,7 +34,7 @@ const ShoppingCartSidebar: FunctionComponent<IShoppingCartSidebarProps> = (
           {/* cart items area */}
           <div className="flex flex-col mx-5 mt-5">
             {cartItems.map((item) => (
-              <CartItem id={item.id} quantity={item.quantity} />
+              <CartItem key={item.id} id={item.id} quantity={item.quantity} />
             ))}
           </div>
           {/* sub total */}
